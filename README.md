@@ -101,9 +101,7 @@ The installer will guide you through:
 
 # Example Alert
 
-```text
-[HoneyPi] TELNET hit on fileserver01:23 from 192.168.1.200:44230
-```
+![HoneyPi Email Alert](images/email.jpg)
 
 ---
 
