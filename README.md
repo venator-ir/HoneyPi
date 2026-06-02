@@ -107,8 +107,8 @@ The installer will guide you through:
 
 # Logging
 
-Alert Logs are located in /var/log/honeypi.log
-watchdog logs for ensuring the service is always running is located in /var/log/honeypi-watchdog.log
+* Alert logs are located in /var/log/honeypi.log
+* Watchdog logs for ensuring the honeypot service is always running is located in /var/log/honeypi-watchdog.log
 
 ---
 
