@@ -4,7 +4,7 @@ set -e
 
 # Check root
 if [ "$UID" -ne 0 ]; then
-    echo "Please run this script as root: sudo honeyPI.sh"
+    echo "Please run this script as root: sudo honeypi-installer.sh"
     exit 1
 fi
 
@@ -197,6 +197,9 @@ PYEOF
 #### Add watchdog cron job ####
 CRON_JOB='*/30 * * * * /usr/local/bin/honeypi-watchdog.sh'
 (crontab -l 2>/dev/null | grep -Fv "/usr/local/bin/honeypi-watchdog.sh"; echo "$CRON_JOB") | crontab -
+
+#### Making sure time is in UTC ####
+timedatectl set-timezone UTC
 
 #### Start honeypot ####
 #python3 /root/honeyPi/venatorhoneypot.py &
