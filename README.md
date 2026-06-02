@@ -1,4 +1,4 @@
-![HoneyPi Intro](images/intro.jpg)
+![HoneyPi Intro](images/intro.png)
 
 
 # HoneyPi
