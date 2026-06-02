@@ -73,7 +73,7 @@ When activity is detected:
 
 * Raspberry Pi running Raspberry Pi OS / Debian-based Linux
 * Internet connectivity
-* Gmail account with App Password enabled
+* Optional- Gmail account with App Password enabled 
 
 Google App Password setup:
 
@@ -135,7 +135,7 @@ nmcli con up "netplan-eth0"
 
 * HoneyPi is designed as a lightweight detection mechanism, not a full IDS platform.
 * Use strong passwords or SSH keys for administrative access.
-* Place HoneyPi on internal networks where unauthorized activity would be suspicious.
+* Place HoneyPi on internal networks where unauthorized activity would be suspicious, like in Dark Space subnets or near cyber key terrain used by attackers.
 * Monitor alerts regularly.
 
 
