@@ -1,3 +1,6 @@
+![HoneyPi Intro](images/intro.jpg)
+
+
 # HoneyPi
 
 HoneyPi is a lightweight Raspberry Pi honeypot designed to provide an affordable and simple indicator of compromise for home labs, small businesses, and internal networks.
