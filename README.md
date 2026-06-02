@@ -85,7 +85,7 @@ https://support.google.com/mail/answer/185833
 
 ```bash
 git clone https://github.com/venator-ir/HoneyPi.git
-cd honeypi
+cd HoneyPi
 chmod +x *.sh
 sudo ./honeypi-installer.sh
 ```
